@@ -11,7 +11,7 @@ import {
   Link,
   Divider,
 } from "@mui/material";
-import TwitterIcon from "@mui/icons-material/Twitter";
+import Groups2Icon from "@mui/icons-material/Groups2";
 import Form from "./Form";
 
 const LoginPage = () => {
@@ -26,7 +26,7 @@ const LoginPage = () => {
         py={2}
         textAlign="center"
       >
-        <TwitterIcon style={{ fontSize: 48, color: "white" }} />
+        <Groups2Icon style={{ fontSize: 48, color: "white" }} />
         <Typography
           variant="h4"
           component="h1"
@@ -34,19 +34,19 @@ const LoginPage = () => {
           mt={2}
           fontWeight="bold"
         >
-          Log in to Twitter
+          Log in to Konnect
         </Typography>
       </Box>
 
       <Box
         width={isNonMobileScreens ? "50%" : "93%"}
-        p={isNonMobileScreens ? "2rem" : "1rem"} // Adjust padding for mobile screens
+        p={isNonMobileScreens ? "2rem" : "1rem"}
         m="5rem auto"
         borderRadius="1.5rem"
         bgcolor={theme.palette.background.alt}
       >
         <Typography variant="h5" fontWeight="500" sx={{ mb: "1.5rem" }}>
-          Welcome back to Twitter!
+          Welcome back to Konnect!
         </Typography>
         <Form />
       </Box>

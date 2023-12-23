@@ -1,11 +1,11 @@
 import { Box, useTheme } from "@mui/material";
 import WidgetWrapper from "components/WidgetWrapper";
 import {
-  Twitter,
   HomeOutlined,
   PersonOutlineOutlined,
   RepeatOutlined,
 } from "@mui/icons-material";
+import Groups2Icon from "@mui/icons-material/Groups2";
 import Navigation from "components/Navigation";
 import { useState } from "react";
 
@@ -27,8 +27,8 @@ const NavigationWidget = () => {
         paddingBottom: "2rem",
       }}
     >
-      <Twitter
-        sx={{
+      <Groups2Icon
+        style={{
           fontSize: "36px",
           color: theme.palette.primary.main,
           marginLeft: "15%",

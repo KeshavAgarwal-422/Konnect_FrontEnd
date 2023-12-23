@@ -1,6 +1,6 @@
-import { Typography, useTheme } from "@mui/material";
-import FlexBetween from "components/FlexBetween";
+import { Link, Typography, useTheme } from "@mui/material";
 import WidgetWrapper from "components/WidgetWrapper";
+import image from "../../Images/0CC5BF92-E723-46BD-AF38-FDF14BBDF7E2.png";
 
 const AdvertWidget = () => {
   const { palette } = useTheme();
@@ -10,30 +10,39 @@ const AdvertWidget = () => {
 
   return (
     <WidgetWrapper mt="2rem">
-      <FlexBetween>
-        <Typography color={dark} variant="h5" fontWeight="500">
-          Sponsored
-        </Typography>
-        <Typography color={medium}>Create Ad</Typography>
-      </FlexBetween>
       <img
         width="100%"
         height="auto"
         alt="advert"
-        src="https://www.ivykids.com/wp-content/uploads/2022/06/IMG_2849-455x340.jpg"
+        src={image}
         style={{ borderRadius: "0.75rem", margin: "0.75rem 0" }}
       />
-      <FlexBetween>
-        <Typography color={main}>IVY KIDS</Typography>
-        <Typography color={medium}>www.ivykids.com</Typography>
-      </FlexBetween>
       <Typography color={medium} m="0.5rem 0">
-        Looking for the best preschool and educational daycare? Ivy Kids helps
-        your child to grow to their fullest potential. Schedule a tour of our
-        schools today!
+        This website is developed by Keshav Agarwal, a full-stack web developer.
+      </Typography>
+      <Typography color={medium} m="1rem 0">
+        Contact:{" "}
+        <Link
+          underline="always"
+          color={main}
+          href="mailto:keshav.agarwal42222@gmail.com"
+        >
+          keshav.agarwal42222@gmail.com
+        </Link>
+      </Typography>
+      <Typography color={medium} m="1rem 0">
+        Portfolio:{" "}
+        <Link
+          color={main}
+          href="https://keshavagarwal-portfolio.web.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          underline="always"
+        >
+          https://keshavagarwal-portfolio.web.app/
+        </Link>
       </Typography>
     </WidgetWrapper>
   );
 };
-
 export default AdvertWidget;

@@ -54,7 +54,7 @@ const Navbar = () => {
             },
           }}
         >
-          TwitterClone
+          Konnect
         </Typography>
       </FlexBetween>
 
