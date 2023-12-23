@@ -1,9 +1,9 @@
-# TweeterClone
+# Konnect
 
 **Backend URL:** https://github.com/KeshavAgarwal-422/TwitterClone_Backend
 
 ## Description
-**TweeterClone** is a social media platform that allows users to share short messages, thoughts, and updates with their followers. Users can create a profile, customize their feed by following other users, and engage with posts by liking, commenting, and sharing, making it easy for users to stay connected with their community.
+**Konnect** is a social media platform that allows users to share short messages, thoughts, and updates with their followers. Users can create a profile, customize their feed by following other users, and engage with posts by liking, commenting, and sharing, making it easy for users to stay connected with their community.
 
 ## Key Features
 - User authentication and profile management
